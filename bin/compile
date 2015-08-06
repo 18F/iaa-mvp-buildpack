@@ -20,7 +20,9 @@ status() {
 node_version=$(curl --silent --get https://semver.io/node/resolve/0.10.x)
 
 install_pdftk() {
-  sudo apt-get install pdftk
+  status "Installing pdftk:"
+  sudo apt-get -y install pdftk
+  status "Done installing pdftk."
 }
 
 install_node() {
