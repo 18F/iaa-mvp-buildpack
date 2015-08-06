@@ -1,6 +1,10 @@
 Cloud Foundry Meteor Buildpack
 ==============================
 
+# Adapted for the IAA-MVP
+
+These docs are from the upstream repo:
+
 ##Create a sample app with 'meteor'
 
 ```
